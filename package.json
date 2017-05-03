@@ -1,0 +1,65 @@
+{
+  "name": "react-router-lifecycle",
+  "version": "1.0.0",
+  "description": "React Router lifecycle routes",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarenaldi/react-router-lifecycle.git"
+  },
+  "keywords": [
+    "react-router",
+    "lifecycle"
+  ],
+  "author": "Cesare Naldi <naldi.cesare@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarenaldi/react-router-lifecycle/issues"
+  },
+  "homepage": "https://github.com/cesarenaldi/react-router-lifecycle#readme",
+  "devDependencies": {
+    "babel-cli": "~6.24.1",
+    "babel-jest": "~19.0.0",
+    "babel-loader": "~7.0.0",
+    "babel-plugin-dynamic-import-node": "~1.0.1",
+    "babel-plugin-jsx-strip-ext": "~1.0.1",
+    "babel-plugin-syntax-async-functions": "~6.13.0",
+    "babel-plugin-syntax-dynamic-import": "~6.18.0",
+    "babel-preset-es2015": "~6.24.1",
+    "babel-preset-react": "~6.24.1",
+    "babel-preset-stage-1": "~6.24.1",
+    "babel-preset-stage-3": "~6.24.1",
+    "enzyme": "~2.8.2",
+    "express": "~4.15.2",
+    "history": "~4.6.1",
+    "immutability-helper": "~2.2.0",
+    "jest": "~19.0.2",
+    "jest-enzyme": "~3.0.1",
+    "prop-types": "~15.5.8",
+    "react": "~15.5.4",
+    "react-addons-test-utils": "~15.5.1",
+    "react-dom": "~15.5.4",
+    "react-router": "~4.1.1",
+    "react-router-config": "~1.0.0-beta.3",
+    "react-router-dom": "~4.1.1",
+    "regenerator-runtime": "~0.10.5",
+    "webpack": "~2.4.1"
+  },
+  "peerDependencies": {
+    "immutability-helper": "~2.2.0",
+    "react": "~15.5.4",
+    "react-router": "~4.1.1",
+    "react-router-config": "~1.0.0-beta.3"
+  },
+  "jest": {
+    "setupFiles": [
+      "./node_modules/enzyme/withDom.js"
+    ],
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js"
+  }
+}
